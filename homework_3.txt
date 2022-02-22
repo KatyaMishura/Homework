@@ -9,7 +9,7 @@ SQL - git branch SQL
 Charles - git branch Charles
 Mobile_testing - git branch mobile_testing
 
-2. Запушить все ветки на внешний репозиторий - git push -u -all
+2. Запушить все ветки на внешний репозиторий - git push -u origin --all
 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта  
 
 git checkout Bag_reports  
