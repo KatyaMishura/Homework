@@ -1,0 +1,213 @@
+JSON
+ 4. Создать внешний репозиторий c названием JSON- new JSON
+ 5. Клонировать репозиторий JSON на локальный компьютер -git clone https://github.com/KatyaMishura/JSON.git
+ 6. Внутри локального JSON создать файл "new.json"- vim new.json
+ 7. Добавить файл под гит- git add new.json
+ 8. Закоммитить файл- git commit -m "file"
+ 9. Отправить файл на внешний GitHub репозиторий - git push
+ 10. Отредактировать содержание файла "new.json" - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.- 
+vim new.json    
+
+{
+"Name":"Mishura Ekaterina",
+ "Age": "32",
+ "Dog": "one",
+ "salary" : "500$"
+}
+ 11. Отправить изменения на внешний репозиторий- git add new.json  git commit -m "name"   git push
+ 12. Создать файл preferences.json
+ 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, страна которую хотели бы посетить) в формате JSON.  vim preferences.json
+
+{
+  "favorite movie" : "django unchained",
+  "favorite series": "Game of Thrones",
+  "favorite food" : "lasagna",
+  "favorite time of year" : "summer",
+  "country you want to visit" : "Italy"
+}
+       
+ 14. Создать файл sklls.json добавить информацию о скиллах которое будут изучены на курсе в формате JSON vim skills.json
+
+{  
+  "Hard skills": ["GitBash,
+                  API testing,
+                  Dev Tools,
+                  Codes HTTP]
+   "Soft skills": [search in google,
+                   self-learning,
+                   teamwork"]
+}                  
+
+           
+ 15. Отправить сразу 2 файла на внешний репозиторий - git add preferences.json skills.json 
+git  commit -m "2new files"   git push
+ 16. На веб интерфейсе создать файл bug_report.json- Add file  Create new file
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON- click file bug_report.json  edit this file
+
+{
+  "Issue title" : "Pop-ap window does not disappear until the date is not changed",
+ "issue type" : "Bug",
+ "Priority" : "Low",
+ "Issue status" : "Blocked",
+ "Author" : "Ivanov",
+ "Severity" : "",
+ "Build" : "",
+ "Environment" : "",
+ "Issiu Description" : " ",
+ "Step to reproduce" :["Select any dish,
+                       Go to the backet,
+                       Select a date next to the last delivery date in the menu e.x. menu 8-11 Nov ,select 15 Nov,
+ After the pop-up delivery up to 14.11 appears click on the change a date button,
+ Look at the pop-up"],
+"Expected result" : "The pop-up delivery up to 14.11 does not appear",
+"Actual result" :  "The pop-up remains until the date is not changed to the suitable one" 
+}
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 20. Синхронизировать внешний и локальный репозиторий JSON- git pull
+
+  https://github.com/KatyaMishura/JSON
+
+XML
+ 21. Создать внешний репозиторий c названием XML -new XML
+ 22. Клонировать репозиторий XML на локальный компьютер - git clone https://github.com/KatyaMishura/XML.git
+ 23. Внутри локального XML создать файл “new.xml”- vim new.xml
+ 24. Добавить файл под гит-git add new.xml
+ 25. Закоммитить файл- git commit -m "name"
+ 26. Отправить файл на внешний GitHub репозиторий -git push
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.- vim new.xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<information_about_me>
+    <fullName>Mishura Ekaterina</fullName>
+    <Age>32</Age>
+    <number_of_pets>1</number_of_pets>
+    <future_desired_salary>500$</future_desired_salary>
+</information_about_me>
+
+ 28. Отправить изменения на внешний репозиторий - 
+git add new.xml
+git commit -m "age"
+git push
+ 29. Создать файл preferences.xml- vim preferences.xml
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML- vim preferences.xml 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<my_preferences>
+    <favorite_movie>django unchained</favorite_movie>
+    <favorite_series>Game of Thrones</favorite_series>
+    <favorite_food>lasagna</favorite_food>
+    <favorite_time_of_year>summer</favorite_time_of_year>
+    <country_you_would_like_to_visit>Italy</country_you_would_like_to_visit>
+</my_preferences>  
+                
+ 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML vim skills.xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<my_skills>
+  <one>GitBash</one>
+  <two>API testing</two>
+  <three>Dev Tools</three>
+  <four>Codes HTTP</four>
+  <five>client-server arhitecture</five>
+</my_skills>
+
+ 32. Сделать коммит в одну строку git add . | git commit -m "add preferences.xml skills.xml"
+ 33. Отправить сразу 2 файла на внешний репозиторий git push
+ 34. На веб интерфейсе создать файл bug_report.xml.
+ -Войти в репозиторий xml
+ -Нажать add file
+ -Create new file
+ -В поле Name your file ввести bug_report.xml
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе -commit changes
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML-открыть файл bug_report.xml 
+перейти в режим редактирования 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<bug_report>
+ <issue_title>Pop-ap window does not disappear until the date is not changed</issue_title>
+ <issue_type>Bug</issue_type>
+ <priority>Low</priority>
+ <issue_status>Blocked</issue_status>
+ <author>Ivanov</author>
+ <severity>""</severity>
+ <build>""</build>
+ <environment>""</environment>
+ <issiu_description>""</issiu_description>
+ <step_to_reproduce>Select dish go to the backet select a date next to the last delivery date in the menu appears click on the change a date button look at the pop-up</step_to_reproduce>
+ <expected_result>The pop-up delivery up to 14.11 does not appear</expected_result>
+<actual_result>The pop-up remains until the date is not changed to the suitable one</actual_result>
+</bug_report>
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе- нажать commit changes
+ 38. Синхронизировать внешний и локальный репозиторий XML git pull
+
+https://github.com/KatyaMishura/XML
+
+
+
+TXT
+
+ 1. Создать внешний репозиторий c названием TXT new repository txt
+ 2. Клонировать репозиторий TXT на локальный компьютер- нажать кнопку Code-скопировать ссылку-в терминале ввести git clone https://github.com/KatyaMishura/TXT.git
+ 3. Внутри локального TXT создать файл “new.txt”- cd txt touch new.txt
+ 4. Добавить файл под гит git add new.txt
+ 5. Закоммитить файл-git commit -m "new.txt"
+ 6. Отправить файл на внешний GitHub репозиторий- git push
+ 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.vim new.txt
+
+
+full Name:Mishura Ekaterina
+Age:32
+number_of_pets:1 
+future_desired_salary:500$
+
+                                                                               
+ 8. Отправить изменения на внешний репозиторий. Git add new.txt- git commit -m"new txt"-git push
+ 9. Создать файл preferences.txt- touch preferences.txt
+ 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT vim preferences.txt
+
+favorite movie : django unchained
+favorite series : Game of Thrones
+favorite food : lasagna
+favorite time of year : summer
+country_you_would_like_to_visit : Italy
+
+ 11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT touch skills.txt vim skills.txt
+
+Skills:
+  GitBash
+  API testing
+  Dev Tools
+  Codes HTTP
+  Сlient-server arhitecture
+  Mobile testing
+  Postgres database
+
+ 12. Сделать коммит в одну строку git add .| git commit -m "2 files"
+ 13. Отправить сразу 2 файла на внешний репозиторий -git push
+ 14. На веб интерфейсе создать файл bug_report.txt.- add file new file bug_report.txt
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе- commit new file
+ 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT- edit this file
+ 
+Issue title : pop-ap window does not disappear until the date is not changed
+Issue type : Bug
+Priority : Low
+Issue status : Blocked
+Author : Ivanov
+Severity :
+Build :
+Environment :
+Issуu Description :
+Step to reproduce : 
+1. Select any dish
+2. Go to the backet
+3. Select a date next to the last delivery date in the menu e.x. menu 8-11 Nov 
+4. Select 15 Nov
+5. After the pop-up delivery up to 14.11 appears click on the change a date button look at the pop
+Expected result : The pop-up delivery up to 14.11 does not appear
+Actual result : The pop-up remains until the date is not changed to the suitable one
+
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе- нажать commit changes
+ 18. Синхронизировать внешний и локальный репозиторий TXT - git pull
+
+https://github.com/KatyaMishura/TXT
